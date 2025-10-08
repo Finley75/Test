@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -34,15 +34,8 @@
         .container {
             padding: 2rem;
         }
-        footer {
-            background: #004080;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
+        
+
         .studiengang-link {
             color: #004080;
             text-decoration: none;
@@ -55,6 +48,12 @@
         }
         .studiengang-section h3 {
             color: #004080;
+        }
+        .kontakt-section {
+            background: #004080; /* Blauer Hintergrund */
+            color: #fff; /* Weiße Schrift */
+            padding: 2rem;
+            border-radius: 5px; /* Abgerundete Ecken */
         }
     </style>
 </head>
@@ -74,7 +73,7 @@
             <p>Hier finden Sie eine Auswahl an Studiengängen, die Ihnen spannende Karrieremöglichkeiten bieten:</p>
             <ul>
                 <li><a href="#maschinenbau" class="studiengang-link">Maschinenbau</a> – Grundlagen der Mechanik, Thermodynamik und Konstruktion.</li>
-                <li><a href="wirtschaftsingenieurwesen.html" class="studiengang-link">Wirtschaftsingenieurwesen</a> – Kombination aus Technik und Betriebswirtschaft.</li>
+                <li><a href="#wirtschaftsingenieurwesen" class="studiengang-link">Wirtschaftsingenieurwesen</a> – Kombination aus Technik und Betriebswirtschaft.</li>
                 <li><a href="informatik.html" class="studiengang-link">Informatik</a> – Programmierung, Datenbanken und künstliche Intelligenz.</li>
                 <li><a href="elektrotechnik.html" class="studiengang-link">Elektrotechnik</a> – Elektronik, Schaltungstechnik und erneuerbare Energien.</li>
                 <li><a href="bauingenieurwesen.html" class="studiengang-link">Bauingenieurwesen</a> – Planung, Konstruktion und nachhaltiges Bauen.</li>
@@ -150,6 +149,76 @@
                     <li>Duale Studiengänge sind auch möglich (mit Praxisanteil im Unternehmen).</li>
                 </ul>
             </div>
+            <!-- Wirtschaftsingenieur Unterüberschrift und Inhalte -->
+            <div id="wirtschaftsingenieurwesen" class="studiengang-section">
+                <h3>Wirtschaftsingenieurwesen</h3>
+                <p><strong>Was ist Wirtschaftingenieurwesen?</strong></p>
+                <p>Wirtschaftsingenieurwesen ist ein klassisches Ingenieurstudium, das sich mit der Entwicklung, Konstruktion, Herstellung und dem Betrieb von Maschinen und technischen Systemen beschäftigt. Es gilt als eine der breitesten und grundlegendsten Ingenieurwissenschaften.</p>
+                
+                <p><strong>🎓 Inhalte des Studiums</strong></p>
+                <p>Das Studium ist interdisziplinär und enthält sowohl technische als auch wirtschaftliche Fächer.</p>
+                <p>Technische Inhalte:</p>
+                <ul>
+                    <li>Mathematik</li>
+                    <li>Physik Technische Mechanik</li>
+                    <li>Elektrotechnik / Maschinenbaugrundlagen</li>
+                    <li>Informatik / Programmieren</li>
+                    <li>Produktionstechnik / Fertigung</li>
+                    <li>Werkstoffkunde</li>
+                    <li>ggf. Energietechnik, Automatisierung, etc.</li>
+                    
+                </ul>
+                <p>Wirtschftliche Inhalte:</p>
+                <ul>
+                    <li>Betriebswirtschaftslehre (BWL)</li>
+                    <li>Volkswirtschaftslehre (VWL)</li>
+                    <li>Rechnungswesen & Controlling</li>
+                    <li>Marketing</li>
+                    <li>Finanzierung & Investition</li>
+                    <li>Unternehmensführung</li>
+                </ul>
+
+                <p><strong>⏳ Dauer & Abschluss</strong></p>
+                <ul>
+                    <li>Bachelor: 6–7 Semester → Bachelor of Science (B.Sc.) oder Bachelor of Engineering (B.Eng.)</li>
+                    <li>Master: 3–4 Semester → Master of Science (M.Sc.) oder Master of Engineering (M.Eng.)</li>
+                </ul>
+
+                <p><strong>🎯 Voraussetzungen</strong></p>
+                <p><em>Schulisch:</em></p>
+                <ul>
+                    <li>Abitur oder Fachhochschulreife</li>
+                    <li>Gute Noten in Mathe, Physik und idealerweise in Wirtschaft</li>
+                </ul>
+                <p><em>Persönlich:</em></p>
+                <ul>
+                    <li>Technisches Interesse</li>
+                    <li>Analytisches Denken</li>
+                    <li>Organisationstalent</li>
+                    <li>Kommunikationsfähigkeit</li>
+                </ul>
+
+                <p><strong>🏭 Berufsperspektiven</strong></p>
+                <p>Sehr vielseitig – z. B. in:</p>
+                <ul>
+                    <li>Projektmanagement</li>
+                    <li>Technischer Vertrieb</li>
+                    <li>Supply Chain / Logistik</li>
+                    <li>Controlling / Kostenrechnung</li>
+                    <li>Produktmanagement</li>
+                    <li>Beratung / Consulting</li>
+                    <li>Qualitätsmanagement</li>
+                    <li>Technisches Management</li>
+                </ul>
+
+                <p><strong>💡 Gut zu wissen</strong></p>
+                <ul>
+                    <li>Der Studiengang ist nicht so tief technisch wie Maschinenbau, aber auch nicht rein wirtschaftlich – man lernt von beidem das Wesentliche.</li>
+                    <li>Viele Unis bieten Vorkurse in Mathe & Physik an – empfehlenswert!</li>
+                    <li>Sehr beliebt, daher an vielen Hochschulen mit NC.</li>
+                    <li>Gute Karrierechancen durch die Kombination aus Technik & Wirtschaft.</li>
+                </ul>
+            </div>
         </section>
 
         <section id="Berufe">
@@ -164,15 +233,13 @@
             </ul>
         </section>
 
-        <section id="Beratung">
+        <section id="Beratung" class="kontakt-section">
             <h2>Kontakt</h2>
             <p>Haben Sie Fragen? Kontaktieren Sie uns:</p>
             <p>Email: info@wirtschaftsingenieur-maschinenbau.de</p>
             <p>Telefon: +49 123 456 789</p>
         </section>
     </div>
-    <footer>
-        <p>&copy; 2025 Berufsorientierung. Alle Rechte vorbehalten.</p>
-    </footer>
+    
 </body>
 </html>
